@@ -1,0 +1,3540 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 0169a550
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 01698010
+    logfile = 0169a060
+    ssddir = /home/seonjoo/Documents/ssd
+    umask = 00000
+
+bb_getattr(path="/.Trash", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash", fpath = "/home/seonjoo/Documents/ssd/.Trash"
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned -1
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.xdg-volume-info", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.xdg-volume-info", fpath = "/home/seonjoo/Documents/ssd/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/autorun.inf", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/autorun.inf", fpath = "/home/seonjoo/Documents/ssd/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995482
+    st_mode = 040700
+    st_nlink = 4
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57402ab7
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995482
+    st_mode = 040700
+    st_nlink = 4
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57402ab7
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+
+bb_getattr(path="/.Trash-1000/files", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000/files", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000/files"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995484
+    st_mode = 040700
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ad9f
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995484
+    st_mode = 040700
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ad9f
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+
+bb_getattr(path="/Untitled Document~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document~", fpath = "/home/seonjoo/Documents/ssd/Untitled Document~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995371
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743addc
+    st_mtime = 0x5743addb
+    st_ctime = 0x5743ade3
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995371
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743addc
+    st_mtime = 0x5743addb
+    st_ctime = 0x5743ade3
+
+bb_opendir(path="/.Trash-1000/files", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000/files", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000/files"
+    opendir returned 0x0x7f398c009520
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c009520
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/update.log", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995830
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+
+bb_readdir(path="/.Trash-1000/files", buf=0x8c0012c0, filler=0x94390220, offset=0, fi=0x9139ac50)
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995833
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d477
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+
+bb_getattr(path="/schedule (copy2).log~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy2).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy2).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994650
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5741bee0
+    st_mtime = 0x5741bedf
+    st_ctime = 0x5741bfab
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994650
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5741bee0
+    st_mtime = 0x5741bedf
+    st_ctime = 0x5741bfab
+
+bb_getattr(path="/bbfs (copy).log~", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs (copy).log~", fpath = "/home/seonjoo/Documents/ssd/bbfs (copy).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994642
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 44
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x57431080
+    st_mtime = 0x5741b6f2
+    st_ctime = 0x5741b6f2
+    readdir returned 0x0x7f398c009550
+calling filler with name .
+calling filler with name 1 (7th copy).png
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c009520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c009520
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/.Trash-1000/files/1 (7th copy).png", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000/files/1 (7th copy).png", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000/files/1 (7th copy).png"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995285
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 44
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743ad9f
+    st_mtime = 0x57402367
+    st_ctime = 0x57402ab7
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_releasedir(path="/.Trash-1000/files", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c009520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c009520
+    lock_owner = 0x0000000000000000
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994644
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 155674
+    st_blksize = 4096
+    st_blocks = 312
+    st_atime = 0x5741b6f2
+    st_mtime = 0x5741b6f2
+    st_ctime = 0x5741b6f2
+
+bb_getattr(path="/schedule.log~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log~", fpath = "/home/seonjoo/Documents/ssd/schedule.log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15991990
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743c8a0
+    st_mtime = 0x5743c7c1
+    st_ctime = 0x5743c895
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15991990
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743c8a0
+    st_mtime = 0x5743c7c1
+    st_ctime = 0x5743c895
+
+bb_getattr(path="/bbfs.c~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.c~", fpath = "/home/seonjoo/Documents/ssd/bbfs.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994840
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743ad9f
+    st_mtime = 0x57420ed8
+    st_ctime = 0x57420ed8
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994814
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 40032
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x57420e71
+    st_mtime = 0x57420ed8
+    st_ctime = 0x57420ed8
+
+bb_getattr(path="/log.c~", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/log.c~", fpath = "/home/seonjoo/Documents/ssd/log.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994652
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 34
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x57431080
+    st_mtime = 0x5741b828
+    st_ctime = 0x5741b828
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994630
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 7792
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5741b7fc
+    st_mtime = 0x5741b7fc
+    st_ctime = 0x5741b7fc
+
+bb_getattr(path="/schedule.log", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995828
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 40
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995827
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 80
+    st_atime = 0x5743d477
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+
+bb_getattr(path="/schedule (copy).log~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994643
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 33
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57415a45
+    st_mtime = 0x57415a44
+    st_ctime = 0x57415a8f
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994643
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 33
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57415a45
+    st_mtime = 0x57415a44
+    st_ctime = 0x57415a8f
+
+bb_getattr(path="/Untitled Document", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+
+bb_getattr(path="/bbfs.log~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.log~", fpath = "/home/seonjoo/Documents/ssd/bbfs.log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994638
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 37
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743ad9f
+    st_mtime = 0x5741bfd1
+    st_ctime = 0x5741bfd1
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994491
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 155674
+    st_blksize = 4096
+    st_blocks = 320
+    st_atime = 0x5740e89a
+    st_mtime = 0x5741bfd1
+    st_ctime = 0x5741bfd1
+
+bb_getattr(path="/update (copy).log", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995831
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 45
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995841
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d477
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+
+bb_getattr(path="/ex1", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995395
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 31
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995489
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954696
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+
+bb_getattr(path="/test.c~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/test.c~", fpath = "/home/seonjoo/Documents/ssd/test.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994494
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d42d
+    st_mtime = 0x5740eb40
+    st_ctime = 0x5740eb40
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994340
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 652
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5740ec78
+    st_mtime = 0x5740ec78
+    st_ctime = 0x5740ec78
+
+bb_getattr(path="/ex2", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995493
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 31
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d477
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954696
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d476
+    st_ctime = 0x5743d476
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c001340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c001340
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c0012c0, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f398c001370
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c001340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c001340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c001340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c001340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+
+bb_opendir(path="/", fi=0x9139ac50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f3988000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x88000990, filler=0x94390220, offset=0, fi=0x9339ec50)
+    readdir returned 0x0x7f3988000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3988000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3988000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9139ac60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9339ec50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f3984000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x84000990, filler=0x94390220, offset=0, fi=0x93b9fc50)
+    readdir returned 0x0x7f3984000b50
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93b9fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f3984000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f3984000b20
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/autorun.inf", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/autorun.inf", fpath = "/home/seonjoo/Documents/ssd/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_getattr(path="/", statbuf=0x93b9fbf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_getattr(path="/", statbuf=0x9139abf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d485
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_getattr(path="/", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d527
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d48b
+    st_mtime = 0x5743d527
+    st_ctime = 0x5743d527
+
+bb_opendir(path="/", fi=0x93b9fc50)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    opendir returned 0x0x7f398c0013d0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_getattr(path="/.Trash", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash", fpath = "/home/seonjoo/Documents/ssd/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995482
+    st_mode = 040700
+    st_nlink = 4
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57402ab7
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995482
+    st_mode = 040700
+    st_nlink = 4
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57402ab7
+    st_mtime = 0x57402ab7
+    st_ctime = 0x57402ab7
+
+bb_readdir(path="/", buf=0x8c001240, filler=0x94390220, offset=0, fi=0x9139ac50)
+    readdir returned 0x0x7f398c001400
+calling filler with name Untitled Document~
+calling filler with name update.log
+calling filler with name schedule (copy2).log~
+calling filler with name bbfs (copy).log~
+calling filler with name schedule.log~
+calling filler with name .
+calling filler with name bbfs.c~
+calling filler with name log.c~
+calling filler with name schedule.log
+calling filler with name schedule (copy).log~
+calling filler with name ..
+calling filler with name Untitled Document
+calling filler with name bbfs.log~
+calling filler with name update (copy).log
+calling filler with name ex1
+calling filler with name test.c~
+calling filler with name ex2
+calling filler with name .Trash-1000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/Untitled Document~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document~", fpath = "/home/seonjoo/Documents/ssd/Untitled Document~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995371
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743addc
+    st_mtime = 0x5743addb
+    st_ctime = 0x5743ade3
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995371
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743addc
+    st_mtime = 0x5743addb
+    st_ctime = 0x5743ade3
+
+bb_getattr(path="/.hidden", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.hidden", fpath = "/home/seonjoo/Documents/ssd/.hidden"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+333333333333333333
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/Untitled Document~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document~", fpath = "/home/seonjoo/Documents/ssd/Untitled Document~"
+
+bb_access(path="/Untitled Document~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document~", fpath = "/home/seonjoo/Documents/ssd/Untitled Document~"
+
+bb_access(path="/Untitled Document~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document~", fpath = "/home/seonjoo/Documents/ssd/Untitled Document~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d527
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d527
+    st_ctime = 0x5743d527
+
+bb_getattr(path="/update.log", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995833
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995833
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_access(path="/update.log", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+
+bb_access(path="/update.log", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+
+bb_access(path="/update.log", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/schedule (copy2).log~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy2).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy2).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994650
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5741bee0
+    st_mtime = 0x5741bedf
+    st_ctime = 0x5741bfab
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994650
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5741bee0
+    st_mtime = 0x5741bedf
+    st_ctime = 0x5741bfab
+
+bb_access(path="/schedule (copy2).log~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy2).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy2).log~"
+
+bb_access(path="/schedule (copy2).log~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy2).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy2).log~"
+
+bb_access(path="/schedule (copy2).log~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy2).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy2).log~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/bbfs (copy).log~", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs (copy).log~", fpath = "/home/seonjoo/Documents/ssd/bbfs (copy).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994642
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 44
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x57431080
+    st_mtime = 0x5741b6f2
+    st_ctime = 0x5741b6f2
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994644
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 155674
+    st_blksize = 4096
+    st_blocks = 312
+    st_atime = 0x5741b6f2
+    st_mtime = 0x5741b6f2
+    st_ctime = 0x5741b6f2
+
+bb_access(path="/bbfs (copy).log~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs (copy).log~", fpath = "/home/seonjoo/Documents/ssd/bbfs (copy).log~"
+
+bb_access(path="/bbfs (copy).log~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs (copy).log~", fpath = "/home/seonjoo/Documents/ssd/bbfs (copy).log~"
+
+bb_access(path="/bbfs (copy).log~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs (copy).log~", fpath = "/home/seonjoo/Documents/ssd/bbfs (copy).log~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/schedule.log~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log~", fpath = "/home/seonjoo/Documents/ssd/schedule.log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15991990
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743c8a0
+    st_mtime = 0x5743c7c1
+    st_ctime = 0x5743c895
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15991990
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743c8a0
+    st_mtime = 0x5743c7c1
+    st_ctime = 0x5743c895
+
+bb_access(path="/schedule.log~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log~", fpath = "/home/seonjoo/Documents/ssd/schedule.log~"
+
+bb_access(path="/schedule.log~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log~", fpath = "/home/seonjoo/Documents/ssd/schedule.log~"
+
+bb_access(path="/schedule.log~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log~", fpath = "/home/seonjoo/Documents/ssd/schedule.log~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/bbfs.c~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.c~", fpath = "/home/seonjoo/Documents/ssd/bbfs.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994840
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743ad9f
+    st_mtime = 0x57420ed8
+    st_ctime = 0x57420ed8
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994814
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 40032
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x57420e71
+    st_mtime = 0x57420ed8
+    st_ctime = 0x57420ed8
+
+bb_access(path="/bbfs.c~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.c~", fpath = "/home/seonjoo/Documents/ssd/bbfs.c~"
+
+bb_access(path="/bbfs.c~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.c~", fpath = "/home/seonjoo/Documents/ssd/bbfs.c~"
+
+bb_access(path="/bbfs.c~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.c~", fpath = "/home/seonjoo/Documents/ssd/bbfs.c~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/log.c~", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/log.c~", fpath = "/home/seonjoo/Documents/ssd/log.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994652
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 34
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x57431080
+    st_mtime = 0x5741b828
+    st_ctime = 0x5741b828
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994630
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 7792
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5741b7fc
+    st_mtime = 0x5741b7fc
+    st_ctime = 0x5741b7fc
+
+bb_access(path="/log.c~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/log.c~", fpath = "/home/seonjoo/Documents/ssd/log.c~"
+
+bb_access(path="/log.c~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/log.c~", fpath = "/home/seonjoo/Documents/ssd/log.c~"
+
+bb_access(path="/log.c~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/log.c~", fpath = "/home/seonjoo/Documents/ssd/log.c~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/schedule.log", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995827
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995827
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_access(path="/schedule.log", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+
+bb_access(path="/schedule.log", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+
+bb_access(path="/schedule.log", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/schedule (copy).log~", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy).log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994643
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 33
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57415a45
+    st_mtime = 0x57415a44
+    st_ctime = 0x57415a8f
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994643
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 33
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x57415a45
+    st_mtime = 0x57415a44
+    st_ctime = 0x57415a8f
+
+bb_access(path="/schedule (copy).log~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy).log~"
+
+bb_access(path="/schedule (copy).log~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy).log~"
+
+bb_access(path="/schedule (copy).log~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule (copy).log~", fpath = "/home/seonjoo/Documents/ssd/schedule (copy).log~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/Untitled Document", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+
+bb_open(path"/Untitled Document", fi=0x93b9fd10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    open returned 7
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x88000f00, size=4096, offset=0, fi=0x9139ad10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    pread returned 13
+
+bb_flush(path="/Untitled Document", fi=0x9339ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/Untitled Document", fi=0x93b9fd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+
+bb_getattr(path="/Untitled Document", statbuf=0x93b9fbf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/bbfs.log~", statbuf=0x9339ec20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.log~", fpath = "/home/seonjoo/Documents/ssd/bbfs.log~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994638
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 37
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743ad9f
+    st_mtime = 0x5741bfd1
+    st_ctime = 0x5741bfd1
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994491
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 155674
+    st_blksize = 4096
+    st_blocks = 320
+    st_atime = 0x5740e89a
+    st_mtime = 0x5741bfd1
+    st_ctime = 0x5741bfd1
+
+bb_access(path="/bbfs.log~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.log~", fpath = "/home/seonjoo/Documents/ssd/bbfs.log~"
+
+bb_access(path="/bbfs.log~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.log~", fpath = "/home/seonjoo/Documents/ssd/bbfs.log~"
+
+bb_access(path="/bbfs.log~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/bbfs.log~", fpath = "/home/seonjoo/Documents/ssd/bbfs.log~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/update (copy).log", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995841
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995841
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_access(path="/update (copy).log", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+
+bb_access(path="/update (copy).log", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+
+bb_access(path="/update (copy).log", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/ex1", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995489
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995489
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d527
+
+bb_open(path"/ex1", fi=0x9339ed10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    open returned 7
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/ex1", buf=0x8c009410, size=16384, offset=0, fi=0x93b9fd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    pread returned 16384
+
+bb_flush(path="/ex1", fi=0x9139ad10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/ex1", fi=0x9339ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    close returned 0
+
+bb_access(path="/ex1", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+
+bb_access(path="/ex1", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+
+bb_getattr(path="/ex1", statbuf=0x9139abf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995489
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995489
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d485
+    st_ctime = 0x5743d527
+
+bb_access(path="/ex1", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex1", fpath = "/home/seonjoo/Documents/ssd/ex1"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/test.c~", statbuf=0x93b9fc20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/test.c~", fpath = "/home/seonjoo/Documents/ssd/test.c~"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994494
+    st_mode = 0120777
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 35
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5743d42d
+    st_mtime = 0x5740eb40
+    st_ctime = 0x5740eb40
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994340
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 652
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5740ec78
+    st_mtime = 0x5740ec78
+    st_ctime = 0x5740ec78
+
+bb_access(path="/test.c~", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/test.c~", fpath = "/home/seonjoo/Documents/ssd/test.c~"
+
+bb_access(path="/test.c~", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/test.c~", fpath = "/home/seonjoo/Documents/ssd/test.c~"
+
+bb_access(path="/test.c~", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/test.c~", fpath = "/home/seonjoo/Documents/ssd/test.c~"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/ex2", statbuf=0x9139ac20, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d476
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d465
+    st_mtime = 0x5743d476
+    st_ctime = 0x5743d527
+
+bb_open(path"/ex2", fi=0x9339ed10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+    open returned 7
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/ex2", buf=0x8c009410, size=16384, offset=0, fi=0x93b9fd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    pread returned 16384
+
+bb_flush(path="/ex2", fi=0x9139ad10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x9b6582b263b5a527
+
+bb_access(path="/ex2", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+
+bb_release(path="/ex2", fi=0x93b9fd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+
+bb_access(path="/ex2", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+
+bb_getattr(path="/ex2", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d476
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 1000800256
+    st_blksize = 4096
+    st_blocks = 1954704
+    st_atime = 0x5743d529
+    st_mtime = 0x5743d476
+    st_ctime = 0x5743d527
+
+bb_access(path="/ex2", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/ex2", fpath = "/home/seonjoo/Documents/ssd/ex2"
+    ERROR bb_access access: Permission denied
+
+bb_access(path="/.Trash-1000", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000"
+
+bb_access(path="/.Trash-1000", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000"
+
+bb_access(path="/.Trash-1000", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/.Trash-1000", fpath = "/home/seonjoo/Documents/ssd/.Trash-1000"
+    close returned 0
+
+bb_releasedir(path="/", fi=0x9339ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f398c0013d0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f398c0013d0
+    lock_owner = 0x0000000000000000
+
+bb_open(path"/schedule.log", fi=0x9139ad10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    open returned 6
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/schedule.log", buf=0x8c0013d0, size=16384, offset=0, fi=0x93b9fd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    pread returned 16384
+
+bb_getattr(path="/schedule.log", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995827
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995827
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 38304
+    st_blksize = 4096
+    st_blocks = 88
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_flush(path="/schedule.log", fi=0x9139ad10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/schedule.log", fi=0x93b9fd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/schedule.log", fpath = "/home/seonjoo/Documents/ssd/schedule.log"
+    close returned 0
+
+bb_open(path"/Untitled Document", fi=0x9339ed10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    open returned 6
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x88000f00, size=4096, offset=0, fi=0x9139ad10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    pread returned 13
+
+bb_fgetattr(path="/Untitled Document", statbuf=0x93b9fbf0, fi=0x93b9fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2049
+    st_ino = 15995388
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 13
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743ade4
+    st_mtime = 0x5743ade3
+    st_ctime = 0x5743ade3
+
+bb_flush(path="/Untitled Document", fi=0x9339ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/Untitled Document", fi=0x9139ad10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/Untitled Document", fpath = "/home/seonjoo/Documents/ssd/Untitled Document"
+    close returned 0
+
+bb_open(path"/update.log", fi=0x93b9fd10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    open returned 6
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/update.log", buf=0x84000af0, size=4096, offset=0, fi=0x9339ed10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    pread returned 127
+
+bb_getattr(path="/update.log", statbuf=0x9139abf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995833
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995833
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_flush(path="/update.log", fi=0x93b9fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/update.log", fi=0x9339ed10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update.log", fpath = "/home/seonjoo/Documents/ssd/update.log"
+    close returned 0
+
+bb_open(path"/update (copy).log", fi=0x9139ad10)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    open returned 6
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/update (copy).log", buf=0x8c0014a0, size=4096, offset=0, fi=0x93b9fd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    pread returned 127
+
+bb_getattr(path="/update (copy).log", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15995841
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15995841
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 127
+    st_blksize = 4096
+    st_blocks = 16
+    st_atime = 0x5743d528
+    st_mtime = 0x5743d477
+    st_ctime = 0x5743d527
+
+bb_flush(path="/update (copy).log", fi=0x9139ad10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x9b6582b263b5a527
+
+bb_release(path="/update (copy).log", fi=0x93b9fd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/update (copy).log", fpath = "/home/seonjoo/Documents/ssd/update (copy).log"
+    close returned 0
+
+bb_getattr(path="/", statbuf=0x9339ebf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d560
+    st_mtime = 0x5743d54a
+    st_ctime = 0x5743d54a
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d560
+    st_mtime = 0x5743d54a
+    st_ctime = 0x5743d54a
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_getattr(path="/", statbuf=0x9139abf0, threshold=50, ssd=/home/seonjoo/Documents/ssd, hdd=/home/seonjoo/Documents/hdd)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d560
+    st_mtime = 0x5743d54a
+    st_ctime = 0x5743d54a
+333333333333333333
+    si:
+    st_dev = 2049
+    st_ino = 15994418
+    st_mode = 040775
+    st_nlink = 3
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5743d560
+    st_mtime = 0x5743d54a
+    st_ctime = 0x5743d54a
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/seonjoo/Documents/ssd", path = "/", fpath = "/home/seonjoo/Documents/ssd/"
